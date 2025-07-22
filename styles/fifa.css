@@ -27,6 +27,7 @@ body {
     align-items: center;
     gap: 80px;
     padding: 33px 20px 0 125px;
+    margin-top: 80px;
 
 }
 
@@ -255,7 +256,10 @@ hr {
 
     .banner {
         padding: 50px 20px 20px;
+        margin-top: 0;
+        border-radius:  0;
     }
+    
 
     .watch-button {
         margin-bottom: 0;
@@ -264,6 +268,13 @@ hr {
     .grid-container,
     .card-container {
         grid-template-columns: 1fr;
+    }
+    .sidebar {
+        background: none;
+        height: auto;
+    }
+      .button1, .button2 {
+        border: 1px solid rgb(223, 218, 218);
     }
 
     .navbar {
@@ -308,10 +319,18 @@ hr {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .sidebar {
-        width: 70%;
-        margin: auto;
+     .sidebar {
+        width: 100%;
+        background: none;
+        flex-direction: row;
+        height: auto;
+        margin-bottom: -30px;
+        padding: 0 ;
+        
+    }
+    .sidebar a {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -343,8 +362,21 @@ hr {
     }
 
     .sidebar {
-        width: 60%;
-        margin: auto;
+        width: 100%;
+        background: none;
+        flex-direction: row;
+        height: auto;
+        margin-bottom: -30px;
+        padding: 0 ;
+        
+    }
+    .sidebar a {
+        display: block;
+        width: 100%;
+    }
+  
+    .button1, .button2 {
+        border: 1px solid rgb(223, 218, 218);
     }
 }
 
